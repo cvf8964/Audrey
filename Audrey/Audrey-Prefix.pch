@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Audrey' target in the 'Audrey' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif

@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49B27645160C8F42005784D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49930AD6160BFED300AF37FB /* main.m */; };
+		49B27646160C8F42005784D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49930ADD160BFED300AF37FB /* AppDelegate.m */; };
+		49B27647160C8F42005784D1 /* GBSpeechSynthesizerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 49517356160C1D960035CF69 /* GBSpeechSynthesizerItem.m */; };
+		49B27649160C8F42005784D1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49930ACA160BFED300AF37FB /* Cocoa.framework */; };
+		49B2764B160C8F42005784D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49930AD3160BFED300AF37FB /* InfoPlist.strings */; };
+		49B2764C160C8F42005784D1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49930ADF160BFED300AF37FB /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		491558B6160C935400603FA7 /* Audrey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Audrey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49517355160C1D960035CF69 /* GBSpeechSynthesizerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBSpeechSynthesizerItem.h; sourceTree = "<group>"; };
+		49517356160C1D960035CF69 /* GBSpeechSynthesizerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBSpeechSynthesizerItem.m; sourceTree = "<group>"; };
+		49930ACA160BFED300AF37FB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		49930ACD160BFED300AF37FB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		49930ACE160BFED300AF37FB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		49930ACF160BFED300AF37FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49930AD2160BFED300AF37FB /* Audrey-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Audrey-Info.plist"; sourceTree = "<group>"; };
+		49930AD4160BFED300AF37FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49930AD6160BFED300AF37FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49930AD8160BFED300AF37FB /* Audrey-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Audrey-Prefix.pch"; sourceTree = "<group>"; };
+		49930ADC160BFED300AF37FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49930ADD160BFED300AF37FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49930AE0160BFED300AF37FB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		49B2763C160C8C9C005784D1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		49B2763D160C8C9C005784D1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49B27648160C8F42005784D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B27649160C8F42005784D1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		491558B8160C936800603FA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				491558B6160C935400603FA7 /* Audrey.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49930ABB160BFED300AF37FB = {
+			isa = PBXGroup;
+			children = (
+				49930AD0160BFED300AF37FB /* Audrey */,
+				49930AC9160BFED300AF37FB /* Frameworks */,
+				491558B8160C936800603FA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49930AC9160BFED300AF37FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49930ACA160BFED300AF37FB /* Cocoa.framework */,
+				49930ACC160BFED300AF37FB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49930ACC160BFED300AF37FB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49930ACD160BFED300AF37FB /* AppKit.framework */,
+				49930ACE160BFED300AF37FB /* CoreData.framework */,
+				49930ACF160BFED300AF37FB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		49930AD0160BFED300AF37FB /* Audrey */ = {
+			isa = PBXGroup;
+			children = (
+				49930ADC160BFED300AF37FB /* AppDelegate.h */,
+				49930ADD160BFED300AF37FB /* AppDelegate.m */,
+				49930ADF160BFED300AF37FB /* MainMenu.xib */,
+				49930AD1160BFED300AF37FB /* Supporting Files */,
+				49517355160C1D960035CF69 /* GBSpeechSynthesizerItem.h */,
+				49517356160C1D960035CF69 /* GBSpeechSynthesizerItem.m */,
+			);
+			path = Audrey;
+			sourceTree = "<group>";
+		};
+		49930AD1160BFED300AF37FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49930AD2160BFED300AF37FB /* Audrey-Info.plist */,
+				49930AD3160BFED300AF37FB /* InfoPlist.strings */,
+				49930AD6160BFED300AF37FB /* main.m */,
+				49930AD8160BFED300AF37FB /* Audrey-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49B27643160C8F42005784D1 /* Audrey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B2764D160C8F42005784D1 /* Build configuration list for PBXNativeTarget "Audrey" */;
+			buildPhases = (
+				49B27644160C8F42005784D1 /* Sources */,
+				49B27648160C8F42005784D1 /* Frameworks */,
+				49B2764A160C8F42005784D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Audrey;
+			productName = "Prononciation Française";
+			productReference = 491558B6160C935400603FA7 /* Audrey.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49930ABD160BFED300AF37FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Andrew A.A.";
+			};
+			buildConfigurationList = 49930AC0160BFED300AF37FB /* Build configuration list for PBXProject "Audrey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+			);
+			mainGroup = 49930ABB160BFED300AF37FB;
+			productRefGroup = 49930ABB160BFED300AF37FB;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49B27643160C8F42005784D1 /* Audrey */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49B2764A160C8F42005784D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B2764B160C8F42005784D1 /* InfoPlist.strings in Resources */,
+				49B2764C160C8F42005784D1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49B27644160C8F42005784D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B27645160C8F42005784D1 /* main.m in Sources */,
+				49B27646160C8F42005784D1 /* AppDelegate.m in Sources */,
+				49B27647160C8F42005784D1 /* GBSpeechSynthesizerItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49930AD3160BFED300AF37FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49930AD4160BFED300AF37FB /* en */,
+				49B2763D160C8C9C005784D1 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49930ADF160BFED300AF37FB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49930AE0160BFED300AF37FB /* en */,
+				49B2763C160C8C9C005784D1 /* fr */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49930AE2160BFED300AF37FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		49930AE3160BFED300AF37FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		49B2764E160C8F42005784D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Audrey/Audrey-Prefix.pch";
+				INFOPLIST_FILE = "Audrey/Audrey-Info.plist";
+				PRODUCT_NAME = Audrey;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49B2764F160C8F42005784D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Audrey/Audrey-Prefix.pch";
+				INFOPLIST_FILE = "Audrey/Audrey-Info.plist";
+				PRODUCT_NAME = Audrey;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49930AC0160BFED300AF37FB /* Build configuration list for PBXProject "Audrey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49930AE2160BFED300AF37FB /* Debug */,
+				49930AE3160BFED300AF37FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B2764D160C8F42005784D1 /* Build configuration list for PBXNativeTarget "Audrey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B2764E160C8F42005784D1 /* Debug */,
+				49B2764F160C8F42005784D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49930ABD160BFED300AF37FB /* Project object */;
+}
