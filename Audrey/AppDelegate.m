@@ -75,6 +75,9 @@ NSString *kPrefDefaultVoice;
 		voiceIndex = [self.availableVoices objectIdenticalTo:[NSSpeechSynthesizer defaultVoice] rowType:GBCommonRow];
 
 	NSIndexSet *voiceIndexSet = [[NSIndexSet alloc] initWithIndex:voiceIndex];
+	NSScrollView *scrollView = self.voicesTable.enclosingScrollView;
+
+	[scrollView.verticalScroller setControlSize:NSSmallControlSize];
 
 	[self.voicesTable selectRowIndexes:voiceIndexSet byExtendingSelection:NO];
 	[self.voicesTable scrollRowToVisible:voiceIndex];
